@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:nodeID="N1dd5f16b201941bdab41ea2af8773b7a">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    <rdf:_1>Paul Martin</rdf:_1>
+    <rdf:_2>Robert Dubois</rdf:_2>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbb5f532292a4438387d2e96b142df63c">
+    <dc:format>application/pdf</dc:format>
+    <dc:creator rdf:nodeID="N1dd5f16b201941bdab41ea2af8773b7a"/>
+    <dc:title>Structure polyhedrique de l'alliage Fe-Mg </dc:title>
+    <dc:subject rdf:nodeID="Nb5188c5ad2fb40b7862a9312816e0ae9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb5188c5ad2fb40b7862a9312816e0ae9">
+    <rdf:_2>cristallographie</rdf:_2>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+    <rdf:_1>alliage</rdf:_1>
+  </rdf:Description>
+</rdf:RDF>
