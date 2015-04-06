@@ -30,4 +30,5 @@ Nous avons rangé ces informations dans un **dictionnaire** dont la **clé** ser
 
 Exemple, pour le document articleCISP2008.pdf on doit obtenir :
 
-![structure](./images/exempledico.png "structure du projet")
+![structure](./images/exemple_dico.png "Exemple d'affichage")
+
