@@ -23,7 +23,11 @@ Cette étape va nous permettre d'obtenir les informations structurelle du docume
 	- Le **nomnre d'ojets** dans le document.
 
 	- Pour chaque objets : 
-	
+
 			- **adressse** (offset)
 
-Nous avons rangé les 
+Nous avons rangé ces informations dans un **dictionnaire** dont la **clé** sera le numéro de l'objets et la **valeur** son adresse.
+
+Exemple, pour le document articleCISP2008.pdf on doit obtenir :
+
+![structure](./images/exempledico.png "structure du projet")
