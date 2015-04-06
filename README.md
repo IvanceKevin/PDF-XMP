@@ -38,27 +38,49 @@ On utilisera des expression régulières.
 Fichier exo1.py :
 	```
 	file_content=""
+
 	fname = "/home/elbino/Workspace/Python/tdtp03/rdflib/src/pdf/test_articleCISP2008.pdf"
+
 	#Transformatation du fichier PDF en flux de caractères
+
 	with open(fname,"rb") as f :
+
 		file_buffer = f.read();
+
 	for byte in file_buffer:
+
 		file_content += chr(ord(byte))
+
 	#print file_content #Affiche le contenu du fichier pdf en format spécifique pdf
+
 	motif = re.compile('(?<=startxref\s)[\d]+(?=\s%%EOF$)')
+
 	recherche = motif.search(file_content)
+
 	if recherche is not None :
+
 		obj = int (recherche.group())
+
 	motif2 = re.compile('[0-9]{10}\s[0-9]{5}\s[n]')
+
 	recherche = motif2.findall(file_content[obj:])
+
 	i=0
+
 	map = {}
+
 	for liste in recherche:
+
 	    liste=liste.split(' ', 1 )
+
 	    num=int(liste[0])
+
 	    map[i+1] = num
+
 	    i+=1
+
 	number = len(map)
+	
 	print map;
 	```
 
