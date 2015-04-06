@@ -4,10 +4,11 @@ PDF/XMP
 PDF/XMP v1 02 Avril 2015
 
 by Ivance Kevin
+
 Professor : Bertrand Frédéric
 
 - [Introduction](#introduction)
-- [ExtractionInformationPDF](#extractionInformationPDF)
+- [ExtractionInformationPDF](#extractionInformationpdf)
 
 ## Introduction
 
@@ -18,6 +19,11 @@ On utilisera également la bibliothèque [RDFlib](https://github.com/RDFLib/rdfl
 ## ExtractionInformationPDF
 
 Cette étape va nous permettre d'obtenir les informations structurelle du document PDF :
+
 	- Le **nomnre d'ojets** dans le document.
+
 	- Pour chaque objets : 
+	
 			- **adressse** (offset)
+
+Nous avons rangé les 
