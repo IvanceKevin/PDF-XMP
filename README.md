@@ -37,6 +37,7 @@ On utilisera des expression régulières.
 
 Fichier exo1.py :
 	```
+
 	file_content=""
 
 	fname = "/home/elbino/Workspace/Python/tdtp03/rdflib/src/pdf/test_articleCISP2008.pdf"
@@ -80,12 +81,19 @@ Fichier exo1.py :
 	    i+=1
 
 	number = len(map)
-	
+
 	print map;
+
 	```
 
 - On récupère le fichier test **test_articleCISP2008**.
 
 - On convertit le fichier PDF en en flux de cartères.
 
-- On utilise l'expression réuglière **'(?<=startxref\s)[\d]+(?=\s%%EOF$)'**
+- On utilise l'expression régulière **'(?<=startxref\s)[\d]+(?=\s%%EOF$)'** qui regarde dans le fichier pdf si il existe une valeur décimal entre startxref et %%EOF. Si c'est le cas on récupère cette valeur
+
+Dans notre exemple, on affiche l'adresse de début de la lecteur de la table: **342**.
+
+
+
+
